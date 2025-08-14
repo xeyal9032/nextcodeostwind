@@ -1,0 +1,52 @@
+{
+  "name": "khayal-jamilli-portfolio",
+  "version": "1.0.0",
+  "description": "Modern AI & Full-Stack Developer Portfolio Website",
+  "main": "index.html",
+  "scripts": {
+    "dev": "live-server --port=3000 --open=/",
+    "build": "echo 'Build completed - Static site ready for deployment'",
+    "deploy": "echo 'Deploy to your preferred hosting service'",
+    "generate-pdf": "node generate-pdf.js",
+    "generate-cv": "node generate-cv-pdf.js"
+  },
+  "keywords": [
+    "portfolio",
+    "ai",
+    "machine-learning",
+    "full-stack",
+    "developer",
+    "react",
+    "nextjs",
+    "python",
+    "tensorflow",
+    "web-development"
+  ],
+  "author": {
+    "name": "Khayal Jamilli",
+    "email": "xeyalcemilli9032@gmail.com",
+    "url": "https://github.com/xeyal9032"
+  },
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xeyal9032/portfolio.git"
+  },
+  "homepage": "https://xeyal9032.github.io/portfolio",
+  "bugs": {
+    "url": "https://github.com/xeyal9032/portfolio/issues"
+  },
+  "devDependencies": {
+    "live-server": "^1.2.2",
+    "puppeteer": "^21.0.0"
+  },
+  "engines": {
+    "node": ">=16.0.0",
+    "npm": ">=8.0.0"
+  },
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not dead"
+  ]
+}
